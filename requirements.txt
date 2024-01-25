@@ -1,0 +1,4 @@
+telebot~=0.0.5
+APScheduler~=3.10.4
+requests~=2.31.0
+redis~=5.0.1

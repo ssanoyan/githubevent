@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+  redis:
+    image: redis
+    ports:
+        - "6379:6379"
